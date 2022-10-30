@@ -18,6 +18,8 @@ body {
 .container {
     width: 400px;
     background: #F8F8F8;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .wrapper {
@@ -163,29 +165,5 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 530px) {
-    .cards {
-        height: 300px;
-        width: 300px;
-    }
-
-    .card .front-view img {
-        width: 15px;
-    }
-
-    .card .back-view img {
-        max-width: 35px;
-    }
-}
 
 
